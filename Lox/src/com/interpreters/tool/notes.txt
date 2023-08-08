@@ -1,0 +1,16 @@
+//Notes for Expr.java file
+
+//manually make the jar for now
+
+//build a .class
+//from ~/Lox/src/com/interpreters/tool
+javac GenerateAst.java
+
+
+//from ~/Lox/src/
+java com.interpreters.tool.GenerateAst /home/derrick/eclipse-workspaces/07-20-2023/Lox/src/com/interpreters/lox/
+
+
+
+
+I have tools on the classpath after moving tools to it's own package  not sure if this is needed
